@@ -16,9 +16,13 @@ NovaC is a language very similar to C.
 If you know C, this language will be easy to use.
 
 NovaC uses the same (or, at least very similar) :
+
 -Syntax
+
 -Logic
+
 -Constucts
+
 
 The file extension NovaC uses is .rc (Readable C)
 
