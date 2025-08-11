@@ -41,8 +41,11 @@ Therefore, a Hello world program would be:
 +include stdio
 
 @int Main()
+
  /printf ("Hello world!);
+ 
  /return 0;
+ 
 \
 
 # COMET Compiler
