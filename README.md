@@ -2,10 +2,22 @@
 
 includes the NovaC language and the COMET transcomplier
 
-+ an automatic compilation using GCC is currently in developement
+NovaC language is a language I made for fun.
+It is basically C but its more of a markdown style language that is easier to write and read.
+Insted of the curly bracket language C is, this language uses dashes in body formatting.
 
-NovaC language was a language I made for fun.
-It is basically C but easier to read.
+# The basics
+
+NovaC is a language very similar to C.
+If you know C, this language will be easy to use.
+
+NovaC uses the same (or, at least very similar) :
+-Syntax
+-Logic
+-Constucts
+
+The file extension NovaC uses is .rc (Readable C)
+
 Each line has a prefix;
 - / for a basic command (e.g. /return 0; , /printf ("Hello world!); )
 - | for a comment (e.g. | fix this later , | This prints hello world )
@@ -24,7 +36,7 @@ Instead of the usual curly brackets, dashes will be used.
 
 \ → Close block
 
-Therefore, a Hello world! program would be:
+Therefore, a Hello world program would be:
 
 +include stdio
 
@@ -35,11 +47,13 @@ Therefore, a Hello world! program would be:
 
 # COMET Compiler
 
-The NovaC programming language uses the .rc file extension (stands for readable C)
-The COMET Compiler is written in C and will transcompile your NovaC code
-It basically translates your NovaC code into C
+The COMET Compiler is written in C and  transcompiles your NovaC code into C code ( .rc -> .c )
+It basically translates your NovaC code into C, that you can compile with your C compiler (GCC integration coming soon)
+
+How to compile it = 
+
 Your .rc file must be in the same folder (directory as COMET)
-In order to compile it, write:
+Console Commands:
 
 ------
 
@@ -50,12 +64,22 @@ Linux:
 cd <directory where COMET is installed>
 ./COMET program.rc program.c
 
+> Your .c file will spawn in the same directory, ready for compiling
+
+------
+
 Windows:
 
 (Use either CMD or Powershell)
 
+Write:
+
 cd <directory where COMET is installed>
 COMET program.rc -o program.c
+
+> Your .c file will spawn in the same directory, ready for compiling
+
+------
 
 MacOS:
 
