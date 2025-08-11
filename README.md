@@ -2,6 +2,8 @@
 
 includes the NovaC language and the COMET transcomplier
 
++ an automatic compilation using GCC is currently in developement
+
 NovaC language was a language I made for fun.
 It is basically C but easier to read.
 Each line has a prefix;
