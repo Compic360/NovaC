@@ -5,11 +5,11 @@ includes the NovaC language and the COMET transcomplier
 NovaC language was a language I made for fun.
 It is basically C but easier to read.
 Each line has a prefix;
-/ for a basic command (e.g. /return 0; , /printf ("Hello world!); )
-| for a comment (e.g. | fix this later , | This prints hello world )
-@ for an entry point (e.g. @ int Main() , @ static void ...)
-$ for a variable declaration (e.g. $ int money = 1000000; , $ float Pi = 3.14; ) 
-+ for an include (e.g. +include stdio , +define MAX 100 (elements of headers like the <> signs and the .h are removed))
+- / for a basic command (e.g. /return 0; , /printf ("Hello world!); )
+- | for a comment (e.g. | fix this later , | This prints hello world )
+- @ for an entry point (e.g. @ int Main() , @ static void ...)
+- $ for a variable declaration (e.g. $ int money = 1000000; , $ float Pi = 3.14; ) 
+- + for an include (e.g. +include stdio , +define MAX 100 (elements of headers like the <> signs and the .h are removed))
 
 Formating: 
 Instead of the usual curly brackets, dashes will be used.
