@@ -64,7 +64,8 @@ Linux:
 
 (Open your console)
 
-cd <directory where COMET is installed>
+cd <-directory where COMET is installed->
+
 ./COMET program.rc program.c
 
 > Your .c file will spawn in the same directory, ready for compiling
@@ -77,7 +78,8 @@ Windows:
 
 Write:
 
-cd <directory where COMET is installed>
+cd <-directory where COMET is installed->
+
 COMET program.rc -o program.c
 
 > Your .c file will spawn in the same directory, ready for compiling
