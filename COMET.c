@@ -16,7 +16,7 @@
      `char *name = "x";`.
    - `writeLine("text")` => `printf("text\n");`, `write("text")` => `printf("text");`
    - `read x;` => `scanf("%d", &x);` (assumes integer input)
-
+   
    This is a solid starting point you can extend as needed.
 */
 
