@@ -3,8 +3,11 @@
 includes the NovaC language and the COMET transcomplier
 
 NovaC language is a language I made for fun. 
-It is inspired by the console commands in Minecraft. When I was little, I thought Programming languages looked like this.
+
+It is inspired by the console commands in Minecraft. 
+
 It is basically C but its more of a markdown style language that is easier to write and read.
+
 Insted of the curly bracket language C is, this language uses dashes in body formatting.
 
 # The basics
