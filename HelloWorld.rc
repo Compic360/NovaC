@@ -1,6 +1,9 @@
 +include stdio
-  1 
-  2 @int Main()
-  3  /printf ("Hello world!");
-  4  /return 0;
-  5 \
+
+| This is a Comment 
+
+@int Main()
+ $ int ten = 10;
+ /printf ("Hello world!");
+ /return 0;
+\
