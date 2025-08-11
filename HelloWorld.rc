@@ -1,0 +1,6 @@
++include stdio
+  1 
+  2 @int Main()
+  3  /printf ("Hello world!");
+  4  /return 0;
+  5 \
